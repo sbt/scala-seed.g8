@@ -1,8 +1,19 @@
 This is a [Giter8][g8] template for Scala
 
 ```
-sbt new scala/scala-seed.g8
+sbt new sbt/scala-seed.g8
 ```
+
+There are templates for sbt 1.x and 0.13.x.
+
+* 1.x
+    ```bash
+    sbt new sbt/scala-seed.g8 -b sbt1
+    ```
+* 0.13.x
+    ```bash
+    sbt new sbt/scala-seed.g8 --branch sbt0.13
+    ```
 
 License
 -------
